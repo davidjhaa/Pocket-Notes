@@ -1,0 +1,25 @@
+.colorPicker {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.colorOption {
+  width: 30px;
+  height: 30px;
+  margin: 5px;
+  cursor: pointer;
+  border-radius: 50%;
+  border: 2px solid transparent;
+  transition: border-color 0.3s;
+}
+
+.colorOption.selected {
+  border-color: #000;
+}
+
+@media (max-width: 768px) {
+  .colorOption {
+    width: 20px;
+    height: 20px;
+  }
+}

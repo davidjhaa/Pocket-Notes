@@ -1,0 +1,40 @@
+.mainPage {
+  height: 100%;
+  background-color: #dae5f5;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+.mainPage > div {
+  display: flex;
+  width: 550px;
+  justify-content: center;
+}
+.mainPage > div > img {
+  width: 100%;
+}
+.mainPage > div > h2 {
+  margin-bottom: 0;
+}
+.mainPage > div > p {
+  padding: 0;
+  color: #292929;
+  text-align: center;
+}
+.bottomLock {
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+}
+.bottomLock > img {
+  padding-right: 5px;
+}
+.bottomLock > p {
+  margin: 25px 0 20px 0;
+}

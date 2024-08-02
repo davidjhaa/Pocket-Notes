@@ -1,0 +1,46 @@
+.headerName {
+  height: 15%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headerName > h1 {
+  margin: 4% 0 0 0;
+}
+
+.listContainer {
+  height: 85%;
+  overflow: auto;
+}
+
+.gp{
+  display: flex;
+  flex-direction: column;
+
+}
+
+.listContainer > div > div {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  border-radius: 10px;
+}
+
+.groupInitial {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 55px;
+  width: 55px;
+  margin: 3% 8% 3% 8%;
+  border-radius: 50%;
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.groupTitle {
+  margin: 0;
+  font-size: 1.4rem;
+}
